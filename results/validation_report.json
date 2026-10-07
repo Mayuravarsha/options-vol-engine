@@ -1,0 +1,29 @@
+{
+  "put_call_parity": {
+    "max_abs_gap": 5.684341886080802e-14,
+    "n_configs": 8640
+  },
+  "greeks_vs_finite_difference": {
+    "max_rel_error": {
+      "delta": 1.287816103431351e-06,
+      "gamma": 1.6555766508509931e-06,
+      "vega": 6.893251052351101e-07,
+      "theta": 1.1785825806836393e-07,
+      "rho": 2.3143291612705997e-09
+    },
+    "n_configs": 72
+  },
+  "implied_vol_roundtrip": {
+    "max_abs_error": 8.215650382226158e-15,
+    "n_configs": 197,
+    "n_unconverged": 0,
+    "mean_iterations": 7.182741116751269
+  },
+  "independent_integration_crosscheck": {
+    "max_abs_diff": 0.0005154166485936695,
+    "max_rel_diff": 0.0002620781651505263,
+    "n_configs": 432,
+    "method": "scipy.integrate.quad over the risk-neutral lognormal density, no d1/d2/N() -- see module docstring"
+  },
+  "runtime_seconds": 37.88739639999403
+}

@@ -1,0 +1,5 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.6
+# optional, for live market data:
+# yfinance>=0.2
